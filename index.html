@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: "Inter";
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex flex-col md:flex-row gap-4 md:gap-6 md:justify-between py-3 md:py-[30px] px-4 md:px-6 border-b-[1px] mb-[82px] md:mb-[48px] xl:mb-[64px] md:place-items-center">
+        <h1 class="font-[700] text-5 xl:text-6 leading-[28px] tracking-[-0.5px] text-[#0066FF] ">CSS Base UI</h1>
+        <div class="flex flex-row gap-4 font-[500] text-[14px] xl:text-4 leading-[20px] tracking-[0px] text-[#475569]">
+            <a href="">Home</a>
+            <a href="">Components</a>
+            <a href="">Docs</a>
+        </div>
+    </nav>
+    <section class="flex flex-col items-center">
+        <h2 class="font-[800] text-[36px] leading-[40px] tracking-[-0.9px] text-[#0F172A] mb-4">CSS Fundamentals</h2>
+        <p class="font-[400] text-[16px] leading-[24px] tracking-[0px] text-[#475569] mb-[29px]">Master modern layout patterns with ease.</p>
+        <p class="font-[400] text-[16px] leading-[24px] tracking-[0px] text-[#475569] mb-[29px] hidden text-center md:block">A demonstration of standard block-level flow and CSS properties <br>integrated with common UI patterns for tablet devices.</p>
+        <div class="flex flex-col md:flex-row gap-[11px] md:gap-[16px]">
+            <button class="w-[356px] md:w-[152px] h-[52px] md:h[48px] rounded-[8px] p-[14px] md:px-[32px] md:py-[12px] font-[600] text-4 leading-6 tracking-[0px] bg-[#0066FF] text-[#FFFFFF] ">Get Started</button>
+            <button class="w-[356px] md:w-[152px] h-[52px] md:h[48px] rounded-[8px] p-[14px] md:px-[32px] md:py-[12px] font-[600] text-4 leading-6 tracking-[0px] bg-[#F1F5F9] text-[#1E293B] ">Get Started</button>
+        </div>
+    </section>
+    <section class="md:w-fit md:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center px-4 py-[48px]">
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        <div class="flex flex-col gap-2 p-5 md:p-6 border-[1px] border-[#CCCCCC] w-[356px] h-fit rounded-[8px]">
+            <div class="flex flex-row justify-between">
+                <h3 class="font-[700] text-[18px] leading-[28px] tracking-[0px] text-[#0F172A]">Box Model Basics</h3>
+                <p class="font-[700] text-[10px] leading-[25px] tracking-[0px] text-[#0066FF] py-[2px] px-[8px] rounded-[8px] bg-[#0066FF1A]">New</p>
+            </div>
+            <p class="font-[400] text-[14px] leading-[20px] tracking-[0px] text-[#475569]">Understanding the box model is crucial for CSS layout. It consists of margins, borders, padding, and content area.
+            <span class="hidden xl:inline">Mastering this ensures predictable element sizing.</span>
+            </p>
+            <a class="font-[500] text-[14px] leading-[20px] tracking-[0px] text-[#0066FF]" href="">Detail -></a>
+        </div>
+        
+    </section>
+    <section class="flex justify-center mb-[54px]">
+        <form class="w-[356px] md:w-[480px] h-[208px] rounded-[12px] border-[1px] p-6 " action="">
+            <div class="flex flex-col gap-[2px] mb-[18px]">
+                <label class="font-[600] text-[14px] leading-5 tracking-[0px] text-[#334155]" for="username">Username</label>
+                <input class="w-full h-[43px] p-3 border-[1px] border-[#CCCCCC] bg-[#FFFFFF] rounded-[8px]" id="username" placeholder="Input Your Username" type="text">
+                <p class="font-[400] text-[11px] leading-[16.5px] tracking-[0px] text-[#64748B]">Please use only alphanumeric characters.</p>
+            </div>
+            <button class="w-full h-[52px] p-[14px] rounded-[8px] font-[700] text-4 leading-6 tracking-[0px] text-[#FFFFFF] bg-[#0066FF]">
+                Submit Form
+            </button>
+        </form>
+    </section>
+    <footer class="flex flex-col gap-6 py-[32px] md:py-[48px] bg-[#F8FAFC] items-center border-t-[1px] border-[#CCCCCC]">
+        <div class="flex gap-[32px] text-[#64748B]">
+            <a href=""><i class="fa-solid fa-globe"></i></a>
+            <a href=""><i class="fa-solid fa-code"></i></a>
+            <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+        </div>
+        <p class="font-[400] text-[12px] leading-[18px] tracking-[0px] text-[#64748B]">© 2024 CSS Fundamentals
+            <span class="hidden md:inline">Built with modern CSS practices.</span>
+        </p>
+        <div class="flex flex-col md:flex-row gap-3 md:gap-6 font-[500] text-3 leading-[16px] tracking-[0px] text-[#94A3B8] items-center">
+            <a href="">Privacy Policy</a> 
+            <a href="">Terms of Service</a>
+            <a href="">Contact Us</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
